@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('../fonts/Partsold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MyFont';
+  src: url('../fonts/Evafiya.ttf') format('truetype');
+  font-weight: normal,bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mama';
+  src: url('../fonts/AmaticSC-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: 'cursive';
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    font-family: 'MyFont';
+    display: flex;
+}
+
+.img-guy1{
+    position: relative;
+}
+img{
+    display: block;
+    width:30vw;
+    height: 100vh;
+}
+.img-guy1 a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: none;
+    color: beige;
+}
+
+.login-guy{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+.box{
+    flex: 1;
+    margin-left: 40px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.col-1 , .col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'MyCustomFont';
+    color: white;
+    background-color: #637760;
+    font-weight: light;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.inner-box{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+
+}
+
+label{
+    letter-spacing: 2.5px;
+    word-spacing: 0.5px;
+}
+
+/* .inner-box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: ;
+
+} */
+
+button[type="submit"]{
+   font: inherit;
+   margin-top: 15px;
+   /* margin-left: 15px; */
+   padding: 10px;
+   border: 1px black solid;
+   color:#637760;
+   background-color: white;
+   transition: transform 0.3s ease-in-out;
+}
+
+form p{
+    margin-top: 10px;
+}
+
+form p a{
+    text-decoration: none;
+    color:#637760
+}
+
+button[type="submit"]:hover{
+    background-color: #637760;
+    color: whitesmoke;
+    border: #637760;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.login{ 
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    align-items: center;
+    width: 17.5%;
+    height: 50px;
+    color: #637760;
+    background-color:white;
+    border: 1px solid #637760;
+    font-family: 'MyFont';
+    margin-bottom: 15px;
+    font-style: bold;
+    letter-spacing: 4px;
+
+
+}
+
+.login .txt{
+    margin: 2px;
+}
+
+
+.col-1>div , .col-2>div{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+input{
+      border: 1px solid #ccc;
+      font:inherit;
+      transition: 
+        transform 0.3s ease-in;
+}
+
+input:focus{
+      outline: none;
+      transform: scale(1.05);
+    }
+
+
+input:valid:not(:focus) {
+  border: 1px solid #637760; 
+  
+}
+
