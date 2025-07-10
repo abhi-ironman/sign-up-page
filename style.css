@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'MyCustomFont';
-  src: url('../fonts/PartsoldRegular.woff') format('woff');
+  src: url('PartsoldRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'MyFont';
-  src: url('../fonts/EvafiyaRegular.woff') format('woff');
+  src: url('EvafiyaRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Mama';
-  src: url('../fonts/AmaticSC-Regular.woff') format('woff');
+  src: url('AmaticSC-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
